@@ -59,4 +59,21 @@ body {
   .content:nth-child(even) {
     text-align: end;
   }
+  @media (max-width: 1024px) {
+    svg {
+      background-color: yellow;
+    }
+  }
+
+  @media (max-width: 768px) {
+    svg {
+      background-color: black;
+    }
+  }
+
+  @media (max-width: 480px) {
+    svg {
+      background-color: red;
+    }
+  }
   
